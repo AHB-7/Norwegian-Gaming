@@ -2,6 +2,15 @@
     font-family: Play;
     src: url(Play-Regular.ttf);
 }
+body {
+    background: radial-gradient(
+        circle at 50% 350%,
+        rgb(255, 255, 255),
+        #021320
+    );
+    margin: 0;
+    padding: 0;
+}
 .line-container {
     position: fixed;
     top: 0;
@@ -13,20 +22,10 @@
 }
 svg {
     display: inline-block;
-    margin-top: 250px;
-  height: 20vh;
+    margin-top: 350px;
+    height: 20vh;
     width: 20vw;
 }
-body {
-    background: radial-gradient(
-        circle at 50% 350%,
-        rgb(255, 255, 255),
-        #021320
-    );
-    margin: 0;
-    padding: 0;
-}
-
 p,
 h3 {
     color: aliceblue;
@@ -116,7 +115,7 @@ nav ul li a:active {
     font-size: 1.4rem;
     line-height: 2.5rem;
     word-spacing: 0.3rem;
-    width: 80vw;
+    width: 75vw;
     font-family: "Play", Arial, Helvetica, sans-serif;
     text-align: justify;
 }
@@ -144,6 +143,13 @@ nav ul li a:active {
         width: auto;
         height: auto;
         margin: 2rem 10rem;
+    }
+    #indextext {
+        margin-left: 0.9rem;
+        font-size: 1.1rem;
+        line-height: 2rem;
+        word-spacing: 0.1rem;
+        font-family: "Play", Arial, Helvetica, sans-serif;
     }
 }
 
