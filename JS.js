@@ -5,6 +5,7 @@ function toastFunction() {
         x.className = x.className.replace("show", "");
     }, 5000);
 }
+
 let path = document.querySelector("path");
 let pathLength = path.getTotalLength();
 path.style.strokeDasharray = pathLength + " " + pathLength;
