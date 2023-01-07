@@ -14,8 +14,8 @@
 svg {
     display: inline-block;
     margin-top: 250px;
-    height: 40vh;
-    width: 160vw;
+  height: 20vh;
+    width: 20vw;
 }
 body {
     background: radial-gradient(
